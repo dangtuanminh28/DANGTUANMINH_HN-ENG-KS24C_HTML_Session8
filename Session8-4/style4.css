@@ -1,13 +1,8 @@
-* {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    padding: 40px;
-    background: #f8f8f8;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 50px;
+    margin: 0;
 }
 
 .container {
@@ -17,20 +12,21 @@ body {
 
 h2 {
     font-size: 24px;
-    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
 }
 
 .underline {
     width: 50px;
     height: 3px;
-    background: #d9534f;
+    background: #e74c3c;
     margin-bottom: 20px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 40px;
 }
 
 .item {
@@ -45,16 +41,18 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #ddd;
+    border: 2px solid #e74c3c;
     border-radius: 10px;
     position: absolute;
     left: -80px;
     transform: rotate(45deg);
+    background-color: white;
 }
 
-.icon-box img {
+.icon-box svg {
     width: 30px;
     height: 30px;
+    fill: #e74c3c;
     transform: rotate(-45deg);
 }
 
@@ -66,4 +64,11 @@ h2 {
     font-size: 18px;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #333;
+}
+
+.text p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
 }
